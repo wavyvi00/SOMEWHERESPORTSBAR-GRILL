@@ -595,17 +595,28 @@ a {
 .page-header {
   padding-top: 180px;
   padding-bottom: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1544025162-d76690b67f11?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-color: var(--bg-dark);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1544025162-d76690b67f11?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
   background-size: cover;
   background-position: center;
   color: var(--text-light);
   text-align: center;
 }
 
+.page-subtitle {
+  max-width: 600px;
+  margin: 1rem auto 0;
+  color: #f1f5f9;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
 .page-title {
   font-size: 4rem;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 0.5rem;
+  color: var(--text-light);
 }
 
 .menu-page-content {
