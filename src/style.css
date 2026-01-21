@@ -451,6 +451,52 @@ a {
   /* Lighter grey for readability */
 }
 
+/* Reviews - Social Proof */
+.reviews {
+  padding: var(--spacing-xl) 0;
+  background-color: var(--bg-white);
+  text-align: center;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.review-card {
+  background: var(--bg-off-white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #fbbf24;
+  /* Amber/Gold for stars */
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.review-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.reviewer {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-family: var(--font-heading);
+}
+
 /* Footer */
 .footer {
   background-color: #000;
